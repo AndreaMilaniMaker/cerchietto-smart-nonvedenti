@@ -4,7 +4,7 @@ Cerchietto indossabile con **sensori di distanza VL53L1X** per assistenza **indo
 
 ## 📄 Documentazione Tecnica
 
-**[📄 Relazione Tecnica Completa (PDF)](docs/vl53l1x_outdoor_analysis.pdf)**
+**[📄 Relazione Tecnica Completa](docs/vl53l1x_outdoor_analysis.md)**
 
 ## 🔧 Hardware Attuale
 - **ESP32 WROOM-32**
