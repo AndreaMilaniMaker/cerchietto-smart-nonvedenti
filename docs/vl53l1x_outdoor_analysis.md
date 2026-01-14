@@ -18,6 +18,8 @@ Questo documento sintetizza i risultati di mesi di sperimentazione con il **VL53
 - **Attuatori**: 4 buzzer attivi a 3 V pilotati via NPN (2N2222)
 - **Cover ottiche**: Filtri Gilisymo specifici per VL53L1X
 
+**Software**: libreria Pololu VL53L1X (maggiore controllo firmware rispetto ad Adafruit)
+
 ### Obiettivo prestazionale
 Rilevare ostacoli a **0,2–1,2 m** con feedback acustico **stabile e intuitivo** (logica "sensori di parcheggio" con cadenza proporzionale alla distanza).
 
@@ -28,7 +30,6 @@ Rilevare ostacoli a **0,2–1,2 m** con feedback acustico **stabile e intuitivo*
 ### 2.1 Fenomeno Osservato
 
 In ambiente esterno, anche con **cielo nuvoloso**, i log telemetrici mostravano **80–95% di misure marcate come "invalid"** (range_status ≠ RangeValid):
-
 ```
 STAT i=0 CH=1 inv%=100.0 good=0   inv=383 oor=0 to=0
 STAT i=1 CH=3 inv%=91.2  good=31  inv=320 oor=0 to=32
@@ -329,9 +330,9 @@ Scegliere una di queste alternative non è "compromesso", è **engineering consa
 
 ## 1. Contesto e Obiettivo
 
-Questo documento riassume mesi di **sperimentazione pratica** con il sensore **VL53L1X** all’interno di un progetto di **cerchietto smart indossabile** per il rilevamento di ostacoli, destinato a persone non vedenti.
+Questo documento riassume mesi di **sperimentazione pratica** con il sensore **VL53L1X** all'interno di un progetto di **cerchietto smart indossabile** per il rilevamento di ostacoli, destinato a persone non vedenti.
 
-L’obiettivo iniziale era realizzare un dispositivo:
+L'obiettivo iniziale era realizzare un dispositivo:
 
 * leggero
 * indossabile
@@ -350,6 +351,8 @@ in **ambiente esterno reale** (strade, parcheggi, parchi, luce variabile).
 * **Attuatori:** 4 buzzer attivi 3 V pilotati via transistor NPN (2N2222)
 * **Ottiche:** filtri Gilisymo specifici per VL53L1X
 
+**Software:** libreria Pololu VL53L1X (maggiore controllo firmware rispetto ad Adafruit)
+
 ---
 
 ## 3. Problematiche Riscontrate
@@ -357,7 +360,6 @@ in **ambiente esterno reale** (strade, parcheggi, parchi, luce variabile).
 ### 3.1 Luce solare e misure invalide
 
 In ambiente esterno, anche con cielo coperto, il sensore produce una percentuale molto elevata di misure **invalid** (`range_status != RangeValid`):
-
 ```
 STAT i=0 CH=1 inv%=100.0 good=0
 STAT i=1 CH=3 inv%=91.2  good=31
@@ -368,8 +370,8 @@ STAT i=3 CH=7 inv%=100.0 good=0
 Con così poche misure valide:
 
 * il feedback acustico diventa irregolare
-* l’utente non riceve informazioni affidabili
-* l’ausilio perde la sua funzione primaria
+* l'utente non riceve informazioni affidabili
+* l'ausilio perde la sua funzione primaria
 
 ---
 
@@ -411,7 +413,7 @@ Sono stati implementati:
 * media mobile sulle distanze
 
 **Conclusione:**
-il software non può compensare l’assenza di dati validi.
+il software non può compensare l'assenza di dati validi.
 
 ---
 
