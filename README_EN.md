@@ -6,7 +6,7 @@ This repository documents what I learned about the real-world limitations of VL5
 
 ## 🎬 Project video
 
-[→ Watch the full reel](#)
+[→ Watch the full reel](https://www.instagram.com/reel/DTgGp6-iFGg/)
 
 ## ⚡ Summary
 
