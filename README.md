@@ -6,7 +6,7 @@ Questo repository documenta cosa ho imparato sui limiti reali dei sensori VL53L1
 
 ## 🎬 Il progetto in video
 
-[→ Guarda il reel completo](#)
+[→ Guarda il reel completo](https://www.instagram.com/reel/DTgGp6-iFGg/)
 
 ## ⚡ In sintesi
 
