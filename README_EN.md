@@ -28,6 +28,17 @@ I designed a wearable headband with 4 laser distance sensors (VL53L1X) to assist
 
 **Software:** Pololu VL53L1X library (better firmware control than Adafruit)
 
+### The prototype
+
+![Headband front view](images/headband_overview_front.jpg)
+*Front view of the headband with electronics and mounted sensors*
+
+![Sensor detail](images/sensors_detail_front.jpg)
+*Detail of the 4 VL53L1X sensors with Gilisymo optical covers and protective shields*
+
+![Top view](images/headband_overview_above.jpg)
+*Top view: sensor layout and system architecture*
+
 ## 🧪 What I tried
 
 1. **Generic IR filters** → excessive crosstalk
