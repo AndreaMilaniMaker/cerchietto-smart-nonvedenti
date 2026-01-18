@@ -39,6 +39,21 @@ Ho progettato un cerchietto indossabile con 4 sensori di distanza laser (VL53L1X
 ![Vista dall'alto](images/headband_overview_above.jpg)
 *Vista dall'alto: disposizione dei sensori e architettura del sistema*
 
+## 📸 Galleria fotografica completa
+
+<details>
+<summary>Clicca per vedere tutte le foto del prototipo</summary>
+
+![Vista frontale](images/headband_overview_front.jpg)
+![Vista dall'alto](images/headband_overview_above.jpg)
+![Sensori frontali](images/sensors_detail_front.jpg)
+![Sensori laterali](images/sensors_detail_left_and_right.jpg)
+![Sensori lato](images/sensors_detail_side.jpg)
+![Modulo esterno frontale](images/external_module_front.jpg)
+![Modulo esterno laterale](images/external_module_side.jpg)
+
+</details>
+
 ## 🧪 Cosa ho provato
 
 1. **Filtri IR generici** → crosstalk eccessivo
