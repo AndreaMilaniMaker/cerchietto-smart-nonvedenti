@@ -39,6 +39,36 @@ I designed a wearable headband with 4 laser distance sensors (VL53L1X) to assist
 ![Top view](images/headband_overview_above.jpg)
 *Top view: sensor layout and system architecture*
 
+## 📸 Complete photo gallery
+
+<details>
+<summary>Click to see all prototype photos</summary>
+
+<br>
+
+![Front view](images/headband_overview_front.jpg)
+*Assembled headband - front view*
+
+![Top view](images/headband_overview_above.jpg)
+*Top view: sensor layout and architecture*
+
+![Front sensors](images/sensors_detail_front.jpg)
+*Front sensor detail with optical covers*
+
+![Left and right sensors](images/sensors_detail_left_and_right.jpg)
+*Side sensors with protective shields*
+
+![Sensors side view](images/sensors_detail_side.jpg)
+*Side view of mounted sensors*
+
+![External module front](images/external_module_front.jpg)
+*External electronic module - front view*
+
+![External module side](images/external_module_side.jpg)
+*External electronic module - side view*
+
+</details>
+
 ## 🧪 What I tried
 
 1. **Generic IR filters** → excessive crosstalk
