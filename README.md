@@ -28,6 +28,17 @@ Ho progettato un cerchietto indossabile con 4 sensori di distanza laser (VL53L1X
 
 **Software:** libreria Pololu VL53L1X (maggiore controllo firmware rispetto ad Adafruit)
 
+### Il prototipo
+
+![Vista frontale cerchietto](images/headband_overview_front.jpg)
+*Vista frontale del cerchietto con elettronica e sensori montati*
+
+![Dettaglio sensori](images/sensors_detail_front.jpg)
+*Dettaglio dei 4 sensori VL53L1X con cover ottiche Gilisymo e schermature protettive*
+
+![Vista dall'alto](images/headband_overview_above.jpg)
+*Vista dall'alto: disposizione dei sensori e architettura del sistema*
+
 ## 🧪 Cosa ho provato
 
 1. **Filtri IR generici** → crosstalk eccessivo
